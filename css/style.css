@@ -90,6 +90,27 @@ figure {
 html p a:hover {
 	text-decoration: none;
 }
+.quote-tara {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 350px; /* Điều chỉnh độ rộng tối đa */
+    margin: auto;
+}
+
+.feedback-image {
+    width: 100%; /* Chiếm toàn bộ chiều rộng container */
+    max-height: 400px; /* Giữ chiều cao hợp lý */
+    object-fit: cover; /* Giữ hình ảnh không bị bóp méo */
+    border-radius: 10px; /* Bo tròn nhẹ để đẹp hơn */
+}
+
+.quote-tara-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 /*
 *
